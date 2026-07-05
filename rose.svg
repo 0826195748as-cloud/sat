@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" width="120" height="140">
+  <defs>
+    <radialGradient id="bloom" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ff8fb1"/>
+      <stop offset="55%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <!-- stem -->
+  <path d="M60 62 C58 90 60 110 60 132" stroke="#059669" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- leaves -->
+  <path d="M60 100 C40 92 30 100 26 116 C46 118 58 112 60 100 Z" fill="url(#leaf)"/>
+  <path d="M60 88 C80 80 92 88 96 104 C76 106 62 100 60 88 Z" fill="url(#leaf)"/>
+  <!-- outer petals -->
+  <circle cx="60" cy="46" r="34" fill="url(#bloom)"/>
+  <path d="M60 14 C74 20 84 34 82 52 C70 46 62 34 60 14 Z" fill="#fb7185" opacity="0.9"/>
+  <path d="M60 14 C46 20 36 34 38 52 C50 46 58 34 60 14 Z" fill="#fb7185" opacity="0.9"/>
+  <!-- inner spiral petals -->
+  <path d="M60 30 C72 34 76 48 68 58 C56 62 46 52 48 42 C50 34 55 31 60 30 Z" fill="#e11d48"/>
+  <path d="M60 34 C68 38 68 50 60 54 C52 52 52 42 60 34 Z" fill="#9f1239"/>
+  <circle cx="60" cy="46" r="5" fill="#fecdd3"/>
+</svg>
